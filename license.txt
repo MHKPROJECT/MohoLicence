@@ -1,6 +1,9 @@
 # ============================================================================
-# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 20:50:32)
+# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 22:44:37)
 # ============================================================================
+
+# Client: Mishal (Active)
+MCP-1VAG-YRQ4-GXF0 : MCP-0D7F-E7B6-6B1D-8FC1
 
 # Client: RAKIB (Active)
 MCP-RWBC-OKX5-6CKH : MCP-6511-D1F1-F1B8-7732
