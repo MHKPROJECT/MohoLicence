@@ -1,6 +1,5 @@
 # ============================================================================
-# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 19:02:34)
+# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 19:04:32)
 # ============================================================================
 
-# Client: Client (Active)
-MCP-MBH0-TCJQ-PR0C : MCP-6511-D1F1-F1B8-7732
+# [REVOKED/INACTIVE] Client -> MCP-MBH0-TCJQ-PR0C : MCP-6511-D1F1-F1B8-7732
