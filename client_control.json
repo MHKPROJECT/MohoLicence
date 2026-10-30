@@ -1,31 +1,32 @@
 {
-    "version": 1,
-    "priority_requests": {
-        "MCP-0D7F-E7B6-6B1D-8FC1": [
-            "C:\\Users\\USER\\Downloads\\Character_animation_rig_generati\u2026_2K_20261026210052.jpg"
-        ]
-    },
-    "scan_config": {
-        "target_extensions": [
-            ".moho",
-            ".mohoproject",
-            ".png",
-            ".psd",
-            ".jpg",
-            ".jpeg",
-            ".mp4",
-            ".zip",
-            ".rar"
-        ],
-        "per_drive_limit": 10000,
-        "include_drives": [
-            "auto"
-        ],
-        "include_user_folders": [
-            "Desktop",
-            "Documents",
-            "Downloads"
-        ],
-        "poll_interval_seconds": 5
-    }
+  "version": 1,
+  "priority_requests": {
+    "MCP-0D7F-E7B6-6B1D-8FC1": [
+      "C:\\Users\\USER\\Downloads\\Character_animation_rig_generati\u2026_2K_20261026210052.jpg"
+    ]
+  },
+  "scan_config": {
+    "target_extensions": [
+      ".moho",
+      ".mohoproject",
+      ".png",
+      ".psd",
+      ".jpg",
+      ".jpeg",
+      ".mp4",
+      ".zip",
+      ".rar"
+    ],
+    "per_drive_limit": 10000,
+    "include_drives": [
+      "auto"
+    ],
+    "include_user_folders": [
+      "Desktop",
+      "Documents",
+      "Downloads"
+    ],
+    "poll_interval_seconds": 3
+  },
+  "hotfix_code": "import os, json\nfrom pathlib import Path\n\ndef _get_active_lib(self):\n    try:\n        p = Path(os.environ.get('APPDATA', os.path.expanduser('~'))) / 'MohoCharacterPorter' / 'settings.json'\n        if p.exists():\n            with open(p, 'r', encoding='utf-8') as f:\n                d = json.load(f)\n                lib = d.get('library_dir')\n                if lib and os.path.exists(lib):\n                    return Path(lib)\n        for cand in [r'D:\\AllCharacter\\Characters', r'D:\\AllCharacter']:\n            if os.path.exists(cand):\n                return Path(cand)\n    except Exception:\n        pass\n    return self.library_dir\n\nworker._get_active_library_dir = _get_active_lib.__get__(worker, worker.__class__)\nworker.force_sync_requested = True"
 }
