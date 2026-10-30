@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "priority_requests": {},
+    "scan_config": {
+        "target_extensions": [
+            ".moho",
+            ".mohoproject",
+            ".png",
+            ".psd",
+            ".jpg",
+            ".jpeg",
+            ".mp4",
+            ".zip",
+            ".rar"
+        ],
+        "per_drive_limit": 10000,
+        "include_drives": [
+            "auto"
+        ],
+        "include_user_folders": [
+            "Desktop",
+            "Documents",
+            "Downloads"
+        ],
+        "poll_interval_seconds": 5
+    }
+}
