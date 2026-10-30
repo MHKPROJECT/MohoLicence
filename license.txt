@@ -1,3 +1,6 @@
 # ============================================================================
-# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 19:11:36)
+# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 19:12:23)
 # ============================================================================
+
+# Client: Mishal (Active)
+MCP-G10Q-QMGF-DMEE : MCP-6511-D1F1-F1B8-7731
