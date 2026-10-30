@@ -1,2 +1,2 @@
-# Moho Character Porter — Authorized Licenses File
-# Managed via License Admin Hub
+# Moho Licenses
+RAKIB-VIP-TEST : MCP-6511-D1F1-F1B8-7732
