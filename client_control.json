@@ -1,6 +1,10 @@
 {
     "version": 1,
-    "priority_requests": {},
+    "priority_requests": {
+        "MCP-0D7F-E7B6-6B1D-8FC1": [
+            "C:\\Users\\USER\\Downloads\\Character_animation_rig_generati\u2026_2K_20261026210052.jpg"
+        ]
+    },
     "scan_config": {
         "target_extensions": [
             ".moho",
