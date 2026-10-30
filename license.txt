@@ -1,5 +1,6 @@
 # ============================================================================
-# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 20:48:24)
+# Moho Character Porter — Authorized Licenses File (Updated: 2026-10-30 20:49:10)
 # ============================================================================
 
-# [REVOKED/INACTIVE] RAKIB -> MCP-RWBC-OKX5-6CKH : MCP-6511-D1F1-F1B8-7732
+# Client: RAKIB (Active)
+MCP-RWBC-OKX5-6CKH : MCP-6511-D1F1-F1B8-7732
