@@ -1,1 +1,2 @@
-# Moho Licenses
+# Moho Character Porter — Authorized Licenses File
+# Managed via License Admin Hub
